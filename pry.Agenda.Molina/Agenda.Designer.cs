@@ -44,12 +44,13 @@
             // 
             btnRegistrar.Enabled = false;
             btnRegistrar.Font = new Font("Segoe UI", 9F);
-            btnRegistrar.Location = new Point(83, 191);
+            btnRegistrar.Location = new Point(210, 190);
             btnRegistrar.Name = "btnRegistrar";
             btnRegistrar.Size = new Size(95, 33);
             btnRegistrar.TabIndex = 0;
             btnRegistrar.Text = "Registrar";
             btnRegistrar.UseVisualStyleBackColor = true;
+            btnRegistrar.Click += btnRegistrar_Click;
             // 
             // lblContacto
             // 
@@ -72,18 +73,19 @@
             // btnCancelar
             // 
             btnCancelar.Font = new Font("Segoe UI", 9F);
-            btnCancelar.Location = new Point(202, 191);
+            btnCancelar.Location = new Point(329, 190);
             btnCancelar.Name = "btnCancelar";
             btnCancelar.Size = new Size(95, 33);
             btnCancelar.TabIndex = 3;
             btnCancelar.Text = "Cancelar";
             btnCancelar.UseVisualStyleBackColor = true;
+            btnCancelar.Click += btnCancelar_Click;
             // 
             // txtNombre
             // 
             txtNombre.Location = new Point(129, 39);
             txtNombre.Name = "txtNombre";
-            txtNombre.Size = new Size(197, 27);
+            txtNombre.Size = new Size(295, 27);
             txtNombre.TabIndex = 4;
             txtNombre.TextChanged += txtNombre_TextChanged;
             // 
@@ -100,9 +102,9 @@
             // lstResultados
             // 
             lstResultados.FormattingEnabled = true;
-            lstResultados.Location = new Point(58, 258);
+            lstResultados.Location = new Point(35, 260);
             lstResultados.Name = "lstResultados";
-            lstResultados.Size = new Size(231, 104);
+            lstResultados.Size = new Size(389, 104);
             lstResultados.TabIndex = 6;
             // 
             // lblCantContact
@@ -127,7 +129,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(352, 450);
+            ClientSize = new Size(471, 450);
             Controls.Add(lblFecha);
             Controls.Add(lblCantContact);
             Controls.Add(lstResultados);
@@ -139,6 +141,7 @@
             Controls.Add(btnRegistrar);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Agenda";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Agenda";
             ResumeLayout(false);
             PerformLayout();
