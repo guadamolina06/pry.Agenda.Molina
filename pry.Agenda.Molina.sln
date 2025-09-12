@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pry.Agenda.Molina", "pry.Agenda.Molina\pry.Agenda.Molina.csproj", "{7E46C763-0CC3-4605-BC75-AE0DD6A36B2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E46C763-0CC3-4605-BC75-AE0DD6A36B2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E46C763-0CC3-4605-BC75-AE0DD6A36B2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E46C763-0CC3-4605-BC75-AE0DD6A36B2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E46C763-0CC3-4605-BC75-AE0DD6A36B2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F9AE3B3-C7E8-4124-BD94-52E80EB0E574}
+	EndGlobalSection
+EndGlobal
