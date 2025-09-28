@@ -66,6 +66,14 @@ namespace pry.Agenda.Molina
             lblCantContact.Text = ("Cantidad de contactos: " + vCantContactos);
             lblFecha.Text = ("Fecha y hora: " + vFecha);
             txtNombre.Focus();
+            if (indice == 5)
+            {
+                MessageBox.Show("Se alcanzo el maximo de contactos");
+                txtNombre.Enabled = false;
+                mskNúmero.Enabled = false;
+                btnRegistrar.Enabled = false;
+                btnCancelar.Enabled = false;
+            }
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)
